@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="98.430972">
+<testcase classname="Reminder mobile app validation - Just Reminder" name="SimplestReminderApp app - operation type - add reminder" time="28.707977">
+<system-out><![CDATA[Given SimplestReminderApp User sets default mobile capability...............passed
+And SimplestReminderApp User sets Android mobile capability which is appPackage and appActivity.passed
+When SimplestReminderApp User starts app....................................passed
+Then SimplestReminderApp Home screen elements to be shown...................passed
+When SimplestReminderApp User adds reminder with default setting............passed
+Then SimplestReminderApp Same reminder should be shown in list..............passed
+And SimplestReminderApp User stops the app..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Reminder mobile app validation - Just Reminder" name="SimplestReminderApp app - operation type - edit reminder" time="30.370379">
+<system-out><![CDATA[Given SimplestReminderApp User sets default mobile capability...............passed
+And SimplestReminderApp User sets Android mobile capability which is appPackage and appActivity.passed
+When SimplestReminderApp User starts app....................................passed
+Then SimplestReminderApp Home screen elements to be shown...................passed
+When SimplestReminderApp User edits already added reminder by changing text.passed
+Then SimplestReminderApp Edited reminder should be shown in list............passed
+And SimplestReminderApp User stops the app..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Reminder mobile app validation - Just Reminder" name="SimplestReminderApp app - operation type - delete reminder" time="39.352616">
+<system-out><![CDATA[Given SimplestReminderApp User sets default mobile capability...............passed
+And SimplestReminderApp User sets Android mobile capability which is appPackage and appActivity.passed
+When SimplestReminderApp User starts app....................................passed
+Then SimplestReminderApp Home screen elements to be shown...................passed
+When SimplestReminderApp User deletes already added reminder by changing text.passed
+Then SimplestReminderApp Deleted reminder should not be shown in list.......passed
+And SimplestReminderApp User stops the app..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
