@@ -1,5 +1,5 @@
 @reminder @mobile @android @simplest_reminder
-Feature: Reminder mobile app validation - Just Reminder
+Feature: Reminder mobile app validation - Just Reminder 
 
 #==================================================================================
   Scenario: SimplestReminderApp app - operation type - add reminder
